@@ -59,7 +59,7 @@ while true; do
             echo "[-] Gagal pindah ke channel: ${channel}"
             exit 1
         fi
-        sleep 1
+        sleep 0.5
     done
 done
 
