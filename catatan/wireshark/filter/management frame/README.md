@@ -1,72 +1,72 @@
 # Filter Wireshark Management Frame
 
-#### 1. Association Request
+#### Association Request
 
 ```
 wlan.fc.type_subtype == 0x00
 ```
 
-#### 2. Association Response
+#### Association Response
 
 ```
 wlan.fc.type_subtype == 0x01
 ```
 
-#### 3. Reassociation Request
+#### Reassociation Request
 
 ```
 wlan.fc.type_subtype == 0x02
 ```
 
-#### 4. Reassociation Response
+#### Reassociation Response
 
 ```
 wlan.fc.type_subtype == 0x03
 ```
 
-#### 5. Probe Request
+#### Probe Request
 
 ```
 wlan.fc.type_subtype == 0x04
 ```
 
-#### 6. Probe Response
+#### Probe Response
 
 ```
 wlan.fc.type_subtype == 0x05
 ```
 
-#### 7. Beacon
+#### Beacon
 
 ```
 wlan.fc.type_subtype == 0x08
 ```
 
-#### 8. ATIM
+#### ATIM
 
 ```
 wlan.fc.type_subtype == 0x09
 ```
 
-#### 9. Disasociation
+#### Disasociation
 
 ```
 wlan.fc.type_subtype == 0x0a
 ```
 
-#### 10. Authentication
+#### Authentication
 
 ```
 wlan.fc.type_subtype == 0x0b
 ```
 
-#### 11. Deauthentication
+#### Deauthentication
 
 ```
 wlan.fc.type_subtype == 0x0c
 ```
 
-#### 12. Action
+#### Action
 
 ```
 wlan.fc.type_subtype == 0x0d
