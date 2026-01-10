@@ -1,18 +1,18 @@
 # Filter Wireshark AKM
 
-#### 1. 802.1X
+#### 802.1X
 
 ```
 wlan.rsn.akms.type == 1
 ```
 
-#### 2. PSK
+#### PSK
 
 ```
 wlan.rsn.akms.type == 2
 ```
 
-#### 3. SAE
+#### SAE
 
 ```
 wlan.rsn.akms.type == 8
