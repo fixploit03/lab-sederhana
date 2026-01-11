@@ -11,7 +11,7 @@ sudo apt update
 sudo apt install hostapd
 ```
 
-## Jalankan
+## Cara Menggunakan
 
 ```
 sudo hostapd hostapd.conf
