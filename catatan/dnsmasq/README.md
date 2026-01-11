@@ -18,7 +18,7 @@ sudo ip addr add 10.10.10.1/24 dev wlan0
 sudo ip link set wlan0 up
 ```
 
-## Jalankan
+## Cara Menggunakan
 
 ```
 sudo dnsmasq -C dnsmasq.conf -d
