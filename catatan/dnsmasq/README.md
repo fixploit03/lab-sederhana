@@ -6,19 +6,21 @@ DNS forwarding, DHCP server, dan TFTP dalam satu paket, membuatnya ideal untuk r
 ## Cara Instal
 
 ```
-sudo apt update
-sudo apt install dnsmasq
-```
-
-## Konfigurasi IP Address
-
-```
-sudo ip addr flush dev wlan0
-sudo ip addr add 10.10.10.1/24 dev wlan0
-sudo ip link set wlan0 up
+sudo apt-get update
+sudo apt-get install dnsmasq
 ```
 
 ## Cara Menggunakan
+
+#### 1. Konfigurasi IP Address
+
+```
+sudo ip addr flush dev [interface]
+sudo ip addr add [ip]/[cidr] dev [interface]
+sudo ip link set [interface] up
+```
+
+#### 2. Jalankan dnsmasq
 
 ```
 sudo dnsmasq -C dnsmasq.conf -d
