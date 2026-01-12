@@ -1,7 +1,6 @@
 # dnsmasq
 
-`dnsmasq` adalah perangkat lunak open-source ringan untuk jaringan kecil hingga menengah yang menyediakan layanan infrastruktur jaringan seperti
-DNS forwarding, DHCP server, dan TFTP dalam satu paket, membuatnya ideal untuk router, firewall, dan perangkat IoT dengan sumber daya terbatas karena konfigurasinya yang mudah dan ukurannya yang kecil.
+`dnsmasq` adalah perangkat lunak open-source ringan yang menyediakan layanan jaringan penting untuk jaringan kecil hingga menengah, terutama sebagai server DNS (Domain Name System) dan DHCP (Dynamic Host Configuration Protocol) yang mudah dikonfigurasi, serta dapat berfungsi sebagai server TFTP dan mendukung Router Advertisement. 
 
 ## Cara Instal
 
