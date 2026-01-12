@@ -23,5 +23,5 @@ sudo ip link set [interface] up
 #### 2. Jalankan dnsmasq
 
 ```
-sudo dnsmasq -C dnsmasq.conf -d
+sudo dnsmasq -C [file_config] -d
 ```
