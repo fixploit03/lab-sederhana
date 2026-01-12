@@ -14,5 +14,5 @@ sudo apt-get install hostapd
 ## Cara Menggunakan
 
 ```
-sudo hostapd hostapd.conf
+sudo hostapd [file_config]
 ```
