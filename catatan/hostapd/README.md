@@ -7,8 +7,8 @@ Hostapd merupakan daemon user-space, artinya berjalan di latar belakang pada sis
 ## Cara Instal
 
 ```
-sudo apt update
-sudo apt install hostapd
+sudo apt-get update
+sudo apt-get install hostapd
 ```
 
 ## Cara Menggunakan
