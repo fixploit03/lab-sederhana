@@ -1,6 +1,6 @@
-# dnsmasq
+# DNSmasq
 
-`dnsmasq` adalah perangkat lunak open-source ringan yang menyediakan layanan jaringan penting untuk jaringan kecil hingga menengah, terutama sebagai server DNS (Domain Name System) dan DHCP (Dynamic Host Configuration Protocol) yang mudah dikonfigurasi, serta dapat berfungsi sebagai server TFTP dan mendukung Router Advertisement. 
+DNSmasq adalah perangkat lunak open-source ringan yang menyediakan layanan jaringan penting untuk jaringan kecil hingga menengah, terutama sebagai server DNS (Domain Name System) dan DHCP (Dynamic Host Configuration Protocol) yang mudah dikonfigurasi, serta dapat berfungsi sebagai server TFTP dan mendukung Router Advertisement. 
 
 ## Cara Instal
 
@@ -19,7 +19,7 @@ sudo ip addr add [ip]/[cidr] dev [interface]
 sudo ip link set [interface] up
 ```
 
-#### 2. Jalankan dnsmasq
+#### 2. Jalankan DNSmasq
 
 ```
 sudo dnsmasq -C [file_config] -d
