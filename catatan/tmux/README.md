@@ -1,5 +1,7 @@
 # Tmux
 
+![](https://github.com/fixploit03/lab-sederhana/blob/main/catatan/tmux/img/tmux.png)
+
 Tmux (Terminal Multiplexer) adalah tool di Linux/Unix yang memungkinkan kamu menjalankan banyak sesi terminal dalam satu layar, membaginya menjadi beberapa panel, jendela, dan sesi, serta tetap berjalan walaupun koneksi SSH terputus.
 
 ## Cara Instal
